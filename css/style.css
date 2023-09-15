@@ -49,7 +49,7 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: rgb(11, 2, 2);
+  background-color: #0a0101;
 }
 
 h1,
@@ -326,6 +326,7 @@ img {
 .skills__names {
   display: flex;
   align-items: center;
+  
 }
 
 .skills__bar {
@@ -359,8 +360,28 @@ img {
 .skills__bootstrap {
   width: 80%;
 }
+.skills__python {
+  width: 70%;
+}
+.skills__netlify {
+  width: 70%;
+}
+.skills__npm {
+  width: 70%;
+}
+.skills__full-stack {
+  width: 100%;
+}
+
 .skills__img {
   border-radius: 0.5rem;
+}
+.classroom-image{
+  border-radius: 0.2rem;
+  height: 350px;
+  width: 350px;
+  margin-right: 10px;
+  margin-left:50px ;
 }
 
 /* ===== WORK =====*/
@@ -707,6 +728,22 @@ i {
     position: absolute;
     right: 0;
     bottom: 0;
-    height: 500px;
+    height: 100px;
   }
+}
+@media screen and (max-width: 768px) {
+  #show {
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+
+.skill-png-image{
+  height: 30px;
+  width: 30px;
+ margin-right: 8px;
 }

@@ -133,8 +133,8 @@ img {
     position: fixed;
     top: var(--header-height);
     right: -100%;
-    width: 80%;
-    height: 100%;
+    width: 40%;
+    height: 40%;
     padding: 2rem;
     background-color: var(--second-color);
     transition: 0.5s;
@@ -170,10 +170,13 @@ img {
 }
 
 .nav__toggle {
-  color: rgb(253, 243, 243);
-  background-color: #0a0101;
+  color: rgb(7, 0, 0);
+  font-weight: bold;
   font-size: 1.5rem;
+  background-color: #060000;
   cursor: pointer;
+  margin-right: 15px;
+  border-radius: 3px;
 }
 
 /*Active menu*/
@@ -730,6 +733,10 @@ i {
     margin-left: auto;
     margin-right: auto;
   }
+  .bd-grid {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .skill-png-image {
@@ -744,4 +751,20 @@ i {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+/*FOR PORTFOLIO NAME */
+@media screen and (max-width: 576px) {
+  .nav__logo {
+    color: rgb(14, 11, 0);
+    font-size: 30px;
+  }
+  .nav__toggle {
+    color: rgb(7, 0, 0);
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: #060000;
+    cursor: pointer;
+    margin-right: 15px;
+    border-radius: 3px;
+  }
 }

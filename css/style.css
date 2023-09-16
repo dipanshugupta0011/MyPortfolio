@@ -221,7 +221,7 @@ img {
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-5);
   margin-top: var(--mt-5);
-  color: #fefe;
+  color: white;
   font-size: 15px;
 }
 
@@ -288,10 +288,10 @@ img {
 
 .about__subtitle {
   margin-bottom: var(--mb-2);
-  color: #fefe;
+  color:white;
 }
 .about__text {
-  color: #fefe;
+  color:white;
 }
 
 .about__img {
@@ -311,7 +311,7 @@ img {
 
 .skills__subtitle {
   margin-bottom: var(--mb-2);
-  color: #fff;
+  color: white;
 }
 
 .skills__text {
@@ -328,7 +328,7 @@ img {
   margin-bottom: var(--mb-4);
   border-radius: 0.5rem;
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
-  background-color: #fff;
+  background-color: white;
 }
 
 .skills__icon {
@@ -450,7 +450,7 @@ img {
 
 .footer__icon {
   font-size: 1.5rem;
-  color: #fff;
+  color:white;
   margin: 0 var(--mb-2);
 }
 
@@ -537,7 +537,7 @@ i {
     display: flex;
     justify-content: center;
     text-align: center;
-    color: #ebd9d9;
+    color: white;
     margin: 8px;
     padding: autopx;
   }
@@ -563,7 +563,7 @@ i {
 @media screen and (max-width: 600px) {
   .styles {
     font-family: "Roboto";
-    color: #fff;
+    color: white;
   }
 
   .mail {
@@ -583,7 +583,7 @@ i {
 @media screen and (min-width: 300px) and (max-width: 604px) {
   .styles {
     font-family: "Roboto";
-    color: #fff;
+    color:white;
     text-align: center;
     margin: 8px;
   }

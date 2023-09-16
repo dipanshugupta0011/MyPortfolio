@@ -49,7 +49,7 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: #0a0101;
+  background-color: #dfaeae;
 }
 
 h1,
@@ -103,7 +103,7 @@ img {
 
 /*===== LAYOUT =====*/
 .bd-grid {
-  max-width: 1024px;
+  max-width: 1800px;
   display: grid;
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
@@ -128,7 +128,7 @@ img {
   font-weight: var(--font-semi);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 770px) { /***?????????imp??????????****/
   .nav__menu {
     position: fixed;
     top: var(--header-height);
@@ -139,10 +139,22 @@ img {
     background-color: var(--second-color);
     transition: 0.5s;
   }
+  .nav__toggle {
+    color: rgb(0, 1, 2);
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: #060000;
+    cursor: pointer;
+    margin-right: 15px;
+    border-radius: 3px;
+    
+  }
 }
 
 .nav__item {
   margin-bottom: var(--mb-4);
+  /**==================update*/
+  
 }
 
 .nav__link {
@@ -713,7 +725,7 @@ i {
     margin-left: 10px;
   }
 }
-@media screen and (min-width: 1100) {
+@media screen and (min-width: 1100px) {
   .home__blob {
     height: 600px;
     width: 600px;
@@ -733,10 +745,6 @@ i {
     margin-left: auto;
     margin-right: auto;
   }
-  .bd-grid {
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 .skill-png-image {
@@ -753,12 +761,10 @@ i {
   margin-right: auto;
 }
 /*FOR PORTFOLIO NAME */
-@media screen and (max-width: 576px) {
-  .nav__logo {
-    color: rgb(14, 11, 0);
-    font-size: 30px;
-  }
-  .nav__toggle {
+
+/**for nav header item****for small &medium devices*/
+/******/
+/* .nav__toggle {
     color: rgb(7, 0, 0);
     font-weight: bold;
     font-size: 1.5rem;
@@ -766,5 +772,17 @@ i {
     cursor: pointer;
     margin-right: 15px;
     border-radius: 3px;
+  }
+  .nav__logo {
+    color: rgb(14, 11, 0);
+    font-size: 30px;
+  }
+  */
+@media screen and (min-width: 1024px) {
+  .nav__item {
+    margin-bottom: var(--mb-3);
+    font-size: 18px;
+    margin: 20px;
+    /**==================update*/
   }
 }

@@ -49,7 +49,7 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: #140101;
+  background-color: black;
 }
 
 h1,
@@ -288,10 +288,10 @@ img {
 
 .about__subtitle {
   margin-bottom: var(--mb-2);
-  color:white;
+  color: white;
 }
 .about__text {
-  color:white;
+  color: white;
 }
 
 .about__img {
@@ -450,7 +450,7 @@ img {
 
 .footer__icon {
   font-size: 1.5rem;
-  color:white;
+  color: white;
   margin: 0 var(--mb-2);
 }
 
@@ -583,7 +583,7 @@ i {
 @media screen and (min-width: 300px) and (max-width: 604px) {
   .styles {
     font-family: "Roboto";
-    color:white;
+    color: white;
     text-align: center;
     margin: 8px;
   }
